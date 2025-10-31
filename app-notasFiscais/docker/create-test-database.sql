@@ -1,0 +1,1 @@
+CREATE DATABASE notasFiscais_teste;
