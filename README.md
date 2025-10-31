@@ -8,7 +8,7 @@ O terminal de fatura deve estar na pasta "app-notasFiscais"
 O terminal de pedidos deve estar no pasta "app-pedidos"
 O terminal do Gateway na pasta raiz
 
-#### Suba os bancos em docker (pode usar o desktop pra ver melhor) e o gateway
+#### Suba os bancos em docker e o gateway
 docker compose up -d  →  nos 3 terminais, isso vai subir o banco dos dois serviços e o gateway (localhost:8000).
 
 #### Drizzle
@@ -44,5 +44,6 @@ use a interface do banco para isso: https://local.drizzle.studio/ e clique em ad
 
 Aí teste o POST com algum software, ex: HTTPie, postman, etc...
 usando o HTTPie → http POST :8000/pedidos/criarPedido quantidade=10 
+
 
 
