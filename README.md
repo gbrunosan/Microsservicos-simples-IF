@@ -2,7 +2,8 @@
  
 ### Instale o docker desktop
 
-Divida os terminais em Fatura / Pedidos / API Gateway
+
+#### Divida os terminais em Fatura / Pedidos / API Gateway
 O terminal de fatura deve estar na pasta "app-notasFiscais"
 O terminal de pedidos deve estar no pasta "app-pedidos"
 O terminal do Gateway na pasta raiz
@@ -43,4 +44,5 @@ use a interface do banco para isso: https://local.drizzle.studio/ e clique em ad
 
 Aí teste o POST com algum software, ex: HTTPie, postman, etc...
 usando o HTTPie → http POST :8000/pedidos/criarPedido quantidade=10 
+
 
